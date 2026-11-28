@@ -28,7 +28,7 @@ The repository includes the following data files:
 | `coffee-shop-sales-revenue.csv` | Source transaction dataset (pipe-delimited) |
 | `maven_roasters_cleaned.csv.xlsx` | Cleaned and prepared dataset workbook |
 | `Maven_roasters.ipynb` | Python analysis notebook |
-| `SQL/retail_sales_analysis.sql` | SQL Server analysis script with 20 business and data-validation queries |
+| `SQL/retail_sales_analysis.sql` | SQL Server analysis script with 20 business and data-validation queries |\n| `PowerBI/DAX_Measures.md` | DAX reference for KPIs, time intelligence, ranking, and filter context |
 
 The dataset includes transaction date/time, store, product details, quantity, and unit price. Revenue is calculated as `transaction_qty * unit_price`; it is not assumed to be a separate source column.
 
@@ -94,7 +94,7 @@ The Power BI work focuses on turning the prepared data into an interactive busin
 - Month-to-Date (MTD), Quarter-to-Date (QTD), and Year-to-Date (YTD)
 - Running Total
 - Ranking analysis using `RANKX`
-- Filter-aware analysis using `ALL`, `ALLSELECTED`, and `REMOVEFILTERS`
+- Filter-aware analysis using `ALL`, `ALLSELECTED`, and `REMOVEFILTERS`\n\nSee [`PowerBI/DAX_Measures.md`](PowerBI/DAX_Measures.md) for the documented DAX formulas, model assumptions, and validation checklist.
 
 *Note: The repository currently contains the Python notebook, data files, and SQL script. The Power BI report file (`.pbix`) and dashboard screenshots are not included in the current repository contents.*
 
