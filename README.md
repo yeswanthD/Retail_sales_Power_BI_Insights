@@ -131,6 +131,8 @@ Retail_sales_Power_BI_Insights/
 ├── maven_roasters_cleaned.csv.xlsx
 ├── SQL/
 │   └── retail_sales_analysis.sql
+├── PowerBI/
+│   └── DAX_Measures.md
 └── README.md
 ```
 
